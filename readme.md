@@ -20,6 +20,7 @@ if you want to deploy the functions , not deploy the triggers and use a cos buck
 deploy --skip-event -c {{COS_BUCKET}}
 ```
 
+#### Example
 Here is an executable example.
 
 ```yml
@@ -47,6 +48,7 @@ jobs:
           secretKey: ${{ secrets.TENCENTCLOUD_SECRET_KEY }}
           args: deploy -t ./hello_world/template.yaml -f
 ```
+and given the example github: https://github.com/Juliiii/test-scf-github-actions
 
 #### License
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
