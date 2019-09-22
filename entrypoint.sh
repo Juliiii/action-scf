@@ -23,3 +23,5 @@ if [ -n "$INPUT_USINGCOS" -a "$INPUT_USINGCOS" != "false"  ]
 then
   scf configure set --using-cos y
 fi
+
+scf configure get
