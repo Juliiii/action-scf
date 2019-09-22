@@ -1,0 +1,23 @@
+name: "action-scf"
+author: "Juli"
+description: "Deploy functions to TencentCloud Serverless"
+inputs:
+  appId:
+    description: "TencentCloud appId"
+    required: true
+  secretId:
+    description: "TencentCloud api secretId"
+    required: true
+  secretKey:
+    description: "TencentCloud api secretKey"
+    required: true
+  region:
+    description: "The region which function be deployed"
+    required: false
+  usingCos:
+    description: "Whether use cos to deploy function or not"
+    required: false
+    default: "false"
+runs:
+  using: "docker"
+  image: "Dockerfile"
