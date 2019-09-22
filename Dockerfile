@@ -4,7 +4,7 @@ LABEL version="1.0.0"
 LABEL maintainer="Juli"
 LABEL description="Install Scf Cli"
 
-RUN sudo pip install scf
+RUN pip install scf
 
 RUN echo "install scf cli successfully"
 
