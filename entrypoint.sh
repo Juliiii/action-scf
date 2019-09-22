@@ -25,3 +25,5 @@ then
 fi
 
 scf configure get
+
+eval "scf $*"
