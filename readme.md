@@ -49,5 +49,8 @@ jobs:
 ```
 
 #### License
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
-This project is distributed under the MIT license.
+[ico-release]: https://img.shields.io/github/tag/MilesChou/composer-action.svg
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
+[link-github-release]: https://github.com/Juliiii/action-scf/releases
