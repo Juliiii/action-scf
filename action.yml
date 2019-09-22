@@ -18,6 +18,9 @@ inputs:
     description: "Whether use cos to deploy function or not"
     required: false
     default: "false"
+  args:
+    default: "scf deploy -f"
 runs:
   using: "docker"
   image: "Dockerfile"
+args: ["${{ inputs.args }}"]
